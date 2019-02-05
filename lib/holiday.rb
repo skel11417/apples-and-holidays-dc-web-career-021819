@@ -47,7 +47,7 @@ end
 
 def sym_format(sym)
   str = sym.to_s
-  str_a = str.split(" ")
+  str_a = str.split("_")
   new_a = str_a.map {|x| x.capitalize}
   output = new_a.join(" ")
 end
