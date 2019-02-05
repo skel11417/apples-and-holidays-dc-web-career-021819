@@ -47,7 +47,7 @@ end
 
 def sym_format(sym)
   str = sym.to_s
-  str.split(" ")
+  str_a = str.split(" ")
   
 
 def all_supplies_in_holidays(holiday_hash)
