@@ -45,7 +45,7 @@ def all_winter_holiday_supplies(holiday_hash)
   supplies.flatten
 end
 
-def sym_format(name)
+def sym_format(sym)
   
 
 def all_supplies_in_holidays(holiday_hash)
