@@ -48,7 +48,7 @@ end
 def sym_format(sym)
   str = sym.to_s
   str_a = str.split(" ")
-  str_a.map {|x| x.capitalize}
+  new_a = str_a.map {|x| x.capitalize}
   
 
 def all_supplies_in_holidays(holiday_hash)
