@@ -50,6 +50,7 @@ def sym_format(sym)
   str_a = str.split(" ")
   new_a = str_a.map {|x| x.capitalize}
   output = new_a.join(" ")
+end
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
