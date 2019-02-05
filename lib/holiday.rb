@@ -47,6 +47,8 @@ end
 
 def sym_format(sym)
   str = sym.to_s
+  str.split(" ")
+  
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
