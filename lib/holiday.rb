@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday_name, supplies|
       supply_str = supplies.join(", ")
       puts "  #{sym_format(holiday_name)}: #{supply_str}"
+    end
   end
 end
 
